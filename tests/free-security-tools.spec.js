@@ -1,7 +1,5 @@
 import { test, expect } from '@playwright/test';
 
-// Finalized Playwright tests for https://s4e.io/free-security-tools
-
 test.describe('Free Security Tools Page', () => {
     test('TC01 – Page Load', async ({ page }) => {
         const response = await page.goto('https://s4e.io/free-security-tools');
